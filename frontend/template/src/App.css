@@ -1,0 +1,39 @@
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  font-family: system-ui, sans-serif;
+  padding: 0 16px;
+}
+
+.inputs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.inputs input {
+  flex: 1;
+  padding: 8px;
+  font-size: 1rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.buttons button {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.output {
+  background: #1e1e1e;
+  color: #7CFC9A;
+  padding: 16px;
+  border-radius: 8px;
+  min-height: 150px;
+  overflow-x: auto;
+}
